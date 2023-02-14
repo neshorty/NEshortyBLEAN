@@ -1,0 +1,5 @@
+tseloe = 10
+drobnoe = 8.4
+stroka = "No"
+
+print(tseloe, tseloe * 3.5, drobnoe - 1, tseloe / (drobnoe - 1), (tseloe * 3.5) / (drobnoe - 1), 'NoNo_YesYesYes', sep='\n')
