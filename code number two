@@ -1,0 +1,10 @@
+a, b = int(input()), int(input())
+
+if 1 <= (a + b) <= 100 and (a + b) < 1000:
+    print('true')
+    
+elif (a * b) == 100 and (a - b) == 100:
+    print('False')
+
+elif 10 <= (a + b) <= 100 or 101 <= (a + b) <= 1000:
+    print('true')
